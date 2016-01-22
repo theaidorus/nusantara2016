@@ -1,3 +1,80 @@
 img {
 	height: 200px;
 }
+
+/*calvin*/
+#satu{
+	display: block;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    /*border: solid;*/
+    background: url(https://files.slack.com/files-pri/T07E4V4EA-F0J4BQ4JH/1.png) no-repeat center;
+    background-size: contain;
+    visibility: hidden;
+}
+
+/*ucup*/
+#dua{
+	height: 100%;
+	width: 100%;
+	background: url(https://files.slack.com/files-pri/T07E4V4EA-F0J4GM8DN/2.png) no-repeat center;
+	background-size: cover;
+}
+
+/*
+==============================================
+fadeIn
+==============================================
+*/
+
+.fadeIn{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 2s;	
+	-webkit-animation-duration: 2s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		transform: scale(1.1);	
+	}
+	80% {
+		transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		-webkit-transform: scale(1.1);
+	}
+	80% {
+		-webkit-transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}
+}
