@@ -14,6 +14,7 @@ class PhotosController < ApplicationController
     request = Net::HTTP::Get.new(uri.request_uri)
     res = http.request(request)
 
+    @result = Array.new
     response = JSON.parse(res.body)['data']
     response.each do |r|
       @newPhotos = Photo.new 
@@ -29,11 +30,12 @@ class PhotosController < ApplicationController
       @newPhotos.like_count = r['likes']['count']
       @newPhotos.comment_count = r['comments']['count']
 
-      @newPhotos.save!
+      # @newPhotos.save!
+      @result.push(@newPhotos)
     end
 
-    @photos = Photo.all
-    render :json => @photos
+    # @photos = Photo.all
+    render :json => @result
 
   end
 
