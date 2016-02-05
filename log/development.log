@@ -1248,3 +1248,8 @@ NoMethodError (undefined method `[]' for nil:NilClass):
 Started GET "/photos" for ::1 at 2016-01-22 15:33:46 -0800
 Processing by PhotosController#index as JSON
 Completed 200 OK in 282ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for ::1 at 2016-01-22 18:08:48 -0800
+Processing by PhotosController#index as JSON
+Completed 200 OK in 803ms (Views: 9.2ms | ActiveRecord: 7.8ms)

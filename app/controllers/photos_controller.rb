@@ -7,7 +7,7 @@ class PhotosController < ApplicationController
   # GET /photos.json
   def index
 
-    tag = 'nature'
+    tag = 'ootd'
     uri = URI('https://api.instagram.com/v1/tags/'+tag+'/media/recent?access_token=33228722.18b244b.1997064779cd4939bc2c91caabcecbe1')
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
