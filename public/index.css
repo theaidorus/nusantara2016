@@ -1,76 +1,21 @@
-/*calvin*/
-#satu{
-	display: block;
-    height: 100%;
-    width: 100%;
-    margin-left: auto;
-    margin-top: auto;
-    margin-right: auto;
-    /*border: solid;*/
-    background: url(https://files.slack.com/files-pri/T07E4V4EA-F0J4BQ4JH/1.png) no-repeat center;
-    background-size: contain;
-    visibility: hidden;
-}
-
-/*ucup*/
-#dua{
+h1 {
 	height: 100%;
-	width: 100%;
-	background: url(https://files.slack.com/files-pri/T07E4V4EA-F0J4GM8DN/2.png) no-repeat center;
-	background-size: cover;
+	/* The html and body elements cannot have any padding or margin. */
+	margin: 0;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #1c1d1e;
+	font-size: 32px;
+	margin-bottom: 3px;
 }
-
-/*
-==============================================
-fadeIn
-==============================================
-*/
-
-.fadeIn{
-	animation-name: fadeIn;
-	-webkit-animation-name: fadeIn;	
-
-	animation-duration: 2s;	
-	-webkit-animation-duration: 2s;
-
-	animation-timing-function: ease-in-out;	
-	-webkit-animation-timing-function: ease-in-out;		
-
-	visibility: visible !important;	
+h2 {
+	color: #1c1d1e;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
 }
-
-@keyframes fadeIn {
-	0% {
-		transform: scale(0);
-		opacity: 0.0;		
-	}
-	60% {
-		transform: scale(1.1);	
-	}
-	80% {
-		transform: scale(0.9);
-		opacity: 1;	
-	}	
-	100% {
-		transform: scale(1);
-		opacity: 1;	
-	}		
+.entry-header .inner {
+	text-align: left;
+	margin: 0 auto 20px auto;
+	width: 800px;
 }
-
-@-webkit-keyframes fadeIn {
-	0% {
-		-webkit-transform: scale(0);
-		opacity: 0.0;		
-	}
-	60% {
-		-webkit-transform: scale(1.1);
-	}
-	80% {
-		-webkit-transform: scale(0.9);
-		opacity: 1;	
-	}	
-	100% {
-		-webkit-transform: scale(1);
-		opacity: 1;	
-	}		
-}
+.entry-header { padding-top: 20px; background-color: #fff; width:100%; position: fixed; top: 0; left: 0; z-index: 999999}
