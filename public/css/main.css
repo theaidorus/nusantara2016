@@ -37,6 +37,7 @@ body {
     line-height: 1.4;
 }
 
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -112,7 +113,10 @@ body, html {
 	background-color: #151515;
 }
 body {
-	
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
 }
 #preloader {
 	display: none;
@@ -123,6 +127,7 @@ body {
 .no-js {
 	padding-top: 106px;
 }
+
 h2 {
 	margin-top: 0;
 }
@@ -181,7 +186,43 @@ main {
 	top: 0;
 	left: 0;
 }
-#slide-3 h2  {color: #ffffff;}
+#slide-3 h1  {
+	color: #000000;
+	font-size: 2.3em;
+	margin-bottom: -0.3em;
+}
+#slide-3 h2  {
+	color: #000000;
+	font-size: 1.8em;
+	font-weight: 300;
+	text-align: left;
+	margin-bottom: -0.9em;
+	line-height: 100%;
+}
+
+#slide-3 h3  {
+	line-height: 100%;
+	color: #000000;
+	font-size: 2.4em;
+	font-weight: 300;
+	text-align: left;
+	margin-bottom: -0.3em;
+}
+
+#slide-3 h4  {
+	color: #000000;
+	font-size: 1.2em;
+	font-weight: 300;
+	text-align: left;
+	line-height: 100%;
+}
+
+#slide-3 #content  {
+	margin-top: 30vh;
+	margin-left: 50vw;
+	color: #000000;
+}
+
 #slide-3 p {color: #b2b2b2;}
 
 #slide-4 .bcg {
