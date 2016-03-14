@@ -7,8 +7,8 @@ class PhotosController < ApplicationController
   # GET /photos.json
   def index
 
-    tag = 'ootd'
-    uri = URI('https://api.instagram.com/v1/tags/'+tag+'/media/recent?access_token=33228722.18b244b.1997064779cd4939bc2c91caabcecbe1')
+    tag = 'beach'
+    uri = URI('https://api.instagram.com/v1/tags/'+tag+'/media/recent?access_token=2712978932.18b244b.2468e739bd7b49f8b306bfe183926918')
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_NONE # You should use VERIFY_PEER in production
