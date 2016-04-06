@@ -115,7 +115,7 @@ body, html {
 body {
 }
 
-h1, h2, h3 {
+h1, h2, h3,h4 {
 	font-family: 'Roboto', sans-serif;
 }
 #preloader {
@@ -166,9 +166,47 @@ main {
 .bcg {background-image:url('../img/1.png');}
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/2.jpg');}
-#slide-2 h2  {color: #ffffff;}
-#slide-2 p {color: #b2b2b2;}
+#slide-2 .bcg {
+    background-image:url('../img/2.png');
+}
+
+#slide-2 h1  {
+    color: #000000;
+    font-size: 2.3em;
+    margin-bottom: -0.3em;
+}
+#slide-2 #rightside {
+    margin-top: 20vh;
+   
+}
+#slide-2 td {
+    vertical-align: bottom;
+}
+#slide-2 h2  {
+    color: #000000;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 4em;
+    font-weight: 200;
+    text-align: right;
+    line-height: 110%;
+    padding-bottom: 20px;
+
+}
+
+#slide-2 h3  {
+    line-height: 100%;
+    color: #000000;
+    font-size: 2em;
+    font-weight: 200;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 10vw;
+    margin-top: 0;
+    line-height: 140%;
+
+}
+
 
 /* Slide 3 */
 #slide-3 {
