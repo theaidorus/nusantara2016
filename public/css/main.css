@@ -217,6 +217,7 @@ main {
 #info {
     width: 100%;
     vertical-align: middle;
+
 }
 
 #slide-3 {
@@ -253,7 +254,7 @@ main {
 	line-height: 100%;
 	color: #000000;
     font-size: 1.6vw;
-	font-weight: 400;
+	font-weight: 500;
 	text-align: left;
     margin-bottom: 0;
     margin-top: 0;
@@ -274,7 +275,6 @@ main {
 	margin-top: 20vh;
 	margin-left: 50vw;
     margin-bottom: 20vh;
-
 	color: #000000;
 }
 
@@ -332,7 +332,13 @@ main {
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
     font-weight: 300;
-    table-layout: fixed
+    table-layout: fixed;
+    border-style: solid;
+}
+#food td {
+    border: 2vw;
+    border-style: solid;
+    border-color: #f8f8f8;
 
 }
 
@@ -341,6 +347,7 @@ main {
         background-size: 100%;
         background-position: center; 
         background-repeat: no-repeat;
+        
 }
 
 #limetree {
