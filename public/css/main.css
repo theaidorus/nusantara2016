@@ -176,7 +176,11 @@ main {
     margin-bottom: -0.3em;
 }
 #slide-2 #rightside {
-    margin-top: 20vh;
+    width:100%;
+    height: 100%;
+    margin-top: 10vh;
+    margin-bottom: 50%;
+    vertical-align: center;
    
 }
 #slide-2 td {
@@ -186,7 +190,7 @@ main {
     color: #000000;
     margin-left: 10vw;
     margin-right: 10vw;
-    font-size: 4em;
+    font-size: 4vw;
     font-weight: 200;
     text-align: right;
     line-height: 110%;
@@ -197,7 +201,7 @@ main {
 #slide-2 h3  {
     line-height: 100%;
     color: #000000;
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: 200;
     text-align: justify;
     text-justify: inter-word;
@@ -209,6 +213,12 @@ main {
 
 
 /* Slide 3 */
+
+#info {
+    width: 100%;
+    vertical-align: middle;
+}
+
 #slide-3 {
 	-webkit-transition: none;
 	-moz-transition: none;
@@ -226,33 +236,35 @@ main {
 }
 #slide-3 h1  {
 	color: #000000;
-	font-size: 2.3em;
-	margin-bottom: -0.3em;
+	font-size: 3.1vw;
+    margin-bottom: 1vw;
+
 }
 #slide-3 h2  {
 	color: #000000;
-	font-size: 1.8em;
+	font-size: 1.6vw;
 	font-weight: 300;
 	text-align: left;
-	margin-bottom: -0.7em;
-	line-height: 100%;
+	margin-bottom: 0;
+	line-height: 7%;
 }
 
 #slide-3 h3  {
 	line-height: 100%;
 	color: #000000;
-	font-size: 2.4em;
-	font-weight: 300;
+    font-size: 1.6vw;
+	font-weight: 400;
 	text-align: left;
-	margin-bottom: 1vh;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 #slide-3 h4  {
-    margin-top:1vh;
-    margin-bottom: 1vh;
-    width: 20vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 25vw;
 	color: #000000;
-	font-size: 1.2em;
+	font-size: 1.3vw;
 	font-weight: 300;
 	text-align: left;
 	line-height: 100%;
@@ -261,6 +273,8 @@ main {
 #slide-3 #content  {
 	margin-top: 20vh;
 	margin-left: 50vw;
+    margin-bottom: 20vh;
+
 	color: #000000;
 }
 
@@ -377,8 +391,6 @@ main {
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center; 
-
-
 }
 
 #yetty {
