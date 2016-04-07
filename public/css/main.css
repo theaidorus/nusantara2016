@@ -335,14 +335,14 @@ main {
     table-layout: fixed;
     border-style: solid;
 }
-#food td {
+#food td  {
     border: 2vw;
     border-style: solid;
     border-color: #f8f8f8;
 
 }
 
-#jayakarta {
+.jayakarta {
         background-image:url('../img/nasi.jpg');
         background-size: 100%;
         background-position: center; 
@@ -350,14 +350,14 @@ main {
         
 }
 
-#limetree {
+.limetree {
         background-image:url('../img/sate.jpg');
         background-size: 100%;
         background-position: center; 
         background-repeat: no-repeat;
 }
 
-#orideli {
+.orideli {
         background-image:url('../img/balado.jpg');
         background-size: 100%;
         background-position: center; 
@@ -365,7 +365,7 @@ main {
 }
 
 
-#martabak {
+.martabak {
         background-image:url('../img/martabak.jpg');
         background-size: 100%;
         background-position: center; 
@@ -374,40 +374,85 @@ main {
 
 
 
-#indocafe {
+.indocafe {
         background-image:url('../img/batagor.jpg');
         background-size: 100%;
         background-repeat: no-repeat;
 }
-#budiman {
+.budiman {
         background-image:url('../img/bakmi.jpg');
         background-size: 100%;
         background-repeat: no-repeat;
 
 }
 
-#sedapindo {
+.sedapindo {
         background-image:url('../img/otak.jpg');
         background-position: center; 
         background-size: 100%;
         background-repeat: no-repeat;
 
 }
-#icecream {
+.icecream {
         background-image:url('../img/durian.jpg');
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center; 
 }
 
-#yetty {
+.yetty {
         background-image:url('../img/nasicampur.jpg');
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: center; 
+}
 
+/* BACKGROUND TRANSITIONS */
+/* Fade */
+.hvr-fade {
+  /*display: inline-block;
+  vertical-align: middle;*/
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  /*overflow: hidden;*/
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+/*.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-image: none;
+  background-color: #B18E73;
+  color: white;
+}*/
+.fade {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
 
 }
+
+.fade:hover, .fade:focus, .fade:active {
+    background-image: none;
+    background-color: #B18E73;
+    color: white;
+    
+    
+    
+
+}
+
 
 
 

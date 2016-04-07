@@ -103,3 +103,17 @@ var loadInstagram = (function() {
 
 
 });
+
+
+$(".jayakarta").mouseenter(
+	var temp = $(this).text();
+	function() {
+		console.log("masuk" + $(this).text());
+		
+	}
+).mouseleave(
+	function() {
+		console.log("keluar");
+		
+	}
+);
